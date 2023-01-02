@@ -24,14 +24,33 @@
 </html>
 
 <!-- 
-    -> PROPRIEDADES CSS UTILIZADAS NO ARQUIVO "style.css":
+    REPRESENTAÇÃO DAS CORES EM CSS
 
-    background-color: cor; -> Determina a cor de fundo.
+    As cores no CSS podem ser representadas de três formas:
+
+    1 - Pelo nome da cor.
+        Ex.: color: blue;
+             color: red;
+             color: white;
     
-    color: cor; -> Determina a cor.
+    2 - Pela função rgb().
+        
+        A função rgb(n,n,n) é composta por 3 números separados por vírgula, os números aceitos estão contidos no intervalo fechado entre os números 0 e 255, sendo 0 a ausência de cor e 255 o máximo de cor possível.
 
-    -> OBSERVAÇÃO:
+        O primeiro número representa o nível de cor "vermelha", o segundo "verde" e o terceiro "azul".
 
-    É uma boa prática estruturar as tags dentro do arquivo css na mesma sequência do estruturamento dentro do arquivo html.
+        Ex.: color: rgb(255,0,0); //Cor vermelha.
+             color: rgb(0,255,0); //Cor verde.
+             color: rgb(0,0,255); //Cor azul.
+
+    3 - Pela representação hexadecimal.
+
+        O hexadecimal é um alfabeto computacional que possui valores do 0 ao 9, mais as letras A, B, C, D, E, F (que presentam 10, 11, 12, 13, 14, 15). Sendo 0 a ausência de cor e FF o máximo de cor possível.
+
+        A representação hexadecimal, é feita com o uso de uma serquilha (#) seguida de 6 dígitos. Os dois primeiros dígitos representam a cor vermelha, o terceiro e quarto representam a cor verde, e os dois ultimos a cor azul.
+
+        Ex.: color: #FF0000; //Cor vermelha.
+             color: #00FF00; //Cor verde.
+             color: #0000FF; //Cor azul.
 
 -->
