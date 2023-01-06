@@ -1,9 +1,13 @@
 body{
-    background-color: #CCCCCC;
+    
 }
 
 img {
     width: 100%;
+}
+
+.principal {
+    background-color: #CCCCCC;
 }
 
 h1 {
@@ -19,6 +23,10 @@ p {
 
 #missao {
     font-size: 20px;
+}
+
+.beneficios {
+    background-color: #FFFFFF;
 }
 
 .itens {
